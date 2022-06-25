@@ -69,7 +69,7 @@ export function Subscribe() {
 
             </div>
 
-            <img src="/src/assets/code-mockup.png" className="mt-10 mx-auto" alt="" />
+            <div className='mt-10 bg-code bg-no-repeat mx-auto h-full w-full'/>
         </div>
     )
 }
