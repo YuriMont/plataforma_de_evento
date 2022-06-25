@@ -1,6 +1,7 @@
 import { useState, FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom';
 import logo from '../assets/logo.png'
+import code from '../assets/code-mockup.png'
 import { useCreateSubscriberMutation } from '../graphql/generated';
 
 
@@ -68,8 +69,9 @@ export function Subscribe() {
                 </div>
 
             </div>
-
-            <div className='mt-10 bg-code bg-no-repeat mx-auto h-full w-full'/>
+            <div className="mt-10 mx-auto" >
+                <img src={code} alt="" />
+            </div>
         </div>
     )
 }
