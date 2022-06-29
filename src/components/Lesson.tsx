@@ -26,9 +26,10 @@ export function Lesson(props: LessonProps) {
             <span className="text-gray-300">
                 {availableDateFormatted}
             </span>
-
             <div className={`rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500 ${
-                isActiveLesson ? "bg-green-500":""}`}>
+                isActiveLesson ? "bg-green-500 transition-colors":""}`}>
+           <div className={`absolute my-auto -m-7 w-0 h-0 rounded-sm border-solid border-t-transparent border-t-[12px] border-b-transparent border-b-[12px] border-r-[12px] ${
+                isActiveLesson ? 'border-r-green-500': 'border-none'}`}/>
                 <header className="flex items-center justify-between">
                     {isLessonAvailable ? (
                         <span className={`text-sm font-medium flex items-center gap-2 ${

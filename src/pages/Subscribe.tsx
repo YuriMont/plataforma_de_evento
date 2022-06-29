@@ -27,11 +27,11 @@ export function Subscribe() {
 
     return (
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col">
-            <div className="w-full max-w-[1100px] flex justify-between mt-20 mx-auto">
+            <div className="w-full max-w-[1100px] text-center mt-20 mx-auto sm:flex sm:justify-between sm:text-left">
                 <div className="max-w-[640px]">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" className='mx-auto sm:mx-0'/>
 
-                    <h1 className='mt-8 text-[2.5rem] leading-tight'>
+                    <h1 className='mt-8 text-[30px] leading-tight sm:text-[2.5rem]'>
                         Construa uma  <strong className='text-blue-500'>aplicação completa</strong>, do zero, com  <strong className='text-blue-500'>React</strong>
                     </h1>
                     <p className='mt-4 text-gray-200'>
@@ -39,7 +39,7 @@ export function Subscribe() {
                     </p>
                 </div>
 
-                <div className='p-8 bg-gray-700 border border-gray-500 rounded'>
+                <div className='p-8 mt-8 bg-gray-700 border border-gray-500 rounded sm:mt-0'>
                     <strong className='text-2xl mb-6 block'>Inscreva-se gratuitamente</strong>
 
                     <form onSubmit={handleSubscribe} className='flex flex-col gap-2 w-full'>
