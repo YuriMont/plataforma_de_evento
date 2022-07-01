@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body{
-    @apply bg-gray-900 text-zinc-100;
+    @apply bg-gray-900 text-zinc-100 overflow-x-hidden;
     -webkit-font-smoothing: antialiased;
 }

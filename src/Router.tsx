@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { Sidebar } from "./components/Sidebar";
 import { Event } from "./pages/Event";
 import { Subscribe } from "./pages/Subscribe";
 
