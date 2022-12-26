@@ -32,10 +32,10 @@ export function Subscribe() {
                     <img src={logo} alt="" className='mx-auto sm:mx-0'/>
 
                     <h1 className='mt-8 text-[30px] leading-tight sm:text-[2.5rem]'>
-                        Construa uma  <strong className='text-blue-500'>aplicação completa</strong>, do zero, com  <strong className='text-blue-500'>React</strong>
+                        Esta aplicação foi completamente feita em <strong className='text-blue-500'>React</strong>, com o intuito de disponibilizar diversas aulas de <strong className='text-blue-500'>programação</strong>
                     </h1>
-                    <p className='mt-4 text-gray-200'>
-                        Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas e com alta demanda para acessar as melhores oportunidades do mercado.
+                    <p className='px-4 mt-4 text-gray-200 sm:px-0'>
+                        As aulas foram coletas do youtube, do canal curso em video, seram disponibilizados 2 modulos do curso de JavaScript lecionados pelo professor Gustavo Guanabara
                     </p>
                 </div>
 

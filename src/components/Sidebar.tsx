@@ -17,7 +17,7 @@ export function Sidebar({clicked, setSidebar}: clickSidebar) {
     }
 
     return (
-        <div className={`w-screen h-full sm:h-auto sm:w-[348px] absolute top-auto block bg-gray-700 p-6 border-l border-gray-600 sm:translate-x-0 sm:relative ${clicked === true ? 'left-0' : 'translate-x-full'} transition`}>
+        <div className={`w-full overflow-auto h-full sm:h-auto sm:w-[348px] absolute top-auto block bg-gray-700 p-6 border-l border-gray-600 sm:translate-x-0 sm:relative ${clicked === true ? 'left-0' : 'translate-x-full'} transition`}>
             <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block">
                 Cronograma de aulas
             </span>
