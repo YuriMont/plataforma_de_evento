@@ -6,3 +6,23 @@ body{
     @apply bg-gray-900 text-zinc-100 overflow-x-hidden;
     -webkit-font-smoothing: antialiased;
 }
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #323238 #121214;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #121214;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #323238;
+    border-radius: 10px;
+    border: 3px solid #0f0f14;
+  }

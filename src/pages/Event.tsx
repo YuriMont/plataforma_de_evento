@@ -16,7 +16,7 @@ export function Event(){
             <Header setSidebar={setSidebar} viewSidebar={sidebar}/>
             <main className="flex flex-1">
                 { slug ? <Video lessonSlug={slug}/> : 
-                <div className="flex flex-1 justify-center items-center text-center gap-4 text-gray-200">
+                <div className="sm:mt-[20%] flex flex-1 items-center sm:items-start justify-center text-center gap-4 text-gray-200">
                     <h1 className="text-lg  sm:text-[2.5rem] leading-tight">
                         Selecione uma aula para assistir
                     </h1>
