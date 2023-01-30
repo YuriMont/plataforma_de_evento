@@ -50,8 +50,8 @@ export function Subscribe() {
 
   return (
     <>
-      <ToastContainer position="bottom-left" autoClose={5000} />
       <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col">
+      <ToastContainer position="bottom-left" autoClose={5000} />
         <div className="w-full max-w-[1100px] text-center mt-20 mx-auto sm:flex sm:justify-between sm:text-left">
           <div className="max-w-[640px]">
             <img src={logo} alt="" className="mx-auto sm:mx-0" />
