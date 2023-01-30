@@ -1,8 +1,7 @@
 <h1 align="center">  Plataforma de eventos online, utilizando o framework ReactJS e banco de dados não relacional GraphQL</h1>
 
 ## 📖 Sobre o projeto
-O projeto web, tratase de uma plataforma de aulas online, ao inscreve-se no evento o aluno receberá um email confirmando sua inscrição e disponibilizado
-o acesso a plataforma, onde o aluno terá acesso a diversas aulas e materiais publicos, além de acesso a comunidades no discord e diversos wallpapers para 
+O projeto web, tratase de uma plataforma de aulas online, ao inscreve-se no evento o aluno será direcionado para a plataforma, onde o aluno terá acesso a diversas aulas e materiais publicos, além de acesso a comunidades no discord e diversos wallpapers para 
 download.
 
 <h3>🌐 Frontend: </h3>
@@ -15,13 +14,12 @@ download.
 <li>GraphQL</li>
 <li>GraphCMS</li>
 <li>VideoJS</li>
-<li>EmailJS</li>
 </ul>
 
 <h2>📌 Funcionalidades</h2>
 <ul>
 <li>Cadastro de novos usuários</li>
-<li>Confirmação de inscrição e disponibilidade do link da plataforma por email</li>
+<li>Direcionamento para a plataforma</li>
 <li>Acesso a diversas aulas de JavaScript presentes no banco de dados</li>
 <li>Acesso a links de comunidades do discord</li>
 <li>Possibilidade de acessar e baixar diversos materiais e wallpapers</li>

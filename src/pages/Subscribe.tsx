@@ -15,33 +15,10 @@ export function Subscribe() {
 
   const [createSubscriber, { loading }] = useCreateSubscriberMutation();
 
-  function submitEmail() {
-    if (email !== "" && name != "") {
-      emailjs
-        .send(
-          import.meta.env.VITE_API_EMAIL_SEVICE_ID,
-          import.meta.env.VITE_API_EMAIL_TEMPLATE_ID,
-          { name, email },
-          import.meta.env.VITE_API_EMAIL_PUBLIC_KEY
-        )
-        .then(() => {
-          toast.success(
-            "Cadastro realizado com sucesso! Abra seu email e acesse o link que foi enviado"
-          );
-        })
-        .catch(() => {
-          toast.error("Erro ao realizar cadastro, tente novamente!");
-        });
-      setName("");
-      setEmail("");
-    }
-    else{
-        toast.error("Preencha todos os dados!");
-    }
-  }
-
   async function handleSubscribe(event: FormEvent) {
-    //submitEmail();
+    if(name === "" || email === ""){
+      toast.error("Preencha todos os dados!")
+    }
     event.preventDefault();
     await createSubscriber({
       variables: {
