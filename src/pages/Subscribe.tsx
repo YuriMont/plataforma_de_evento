@@ -5,10 +5,13 @@ import { useCreateSubscriberMutation } from "../graphql/generated";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 
 export function Subscribe() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+
+  const navigate = useNavigate();
 
   const [createSubscriber, { loading }] = useCreateSubscriberMutation();
 
@@ -46,6 +49,7 @@ export function Subscribe() {
         email,
       },
     });
+    navigate("/event")
   }
 
   return (
