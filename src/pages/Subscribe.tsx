@@ -41,7 +41,7 @@ export function Subscribe() {
   }
 
   async function handleSubscribe(event: FormEvent) {
-    submitEmail();
+    //submitEmail();
     event.preventDefault();
     await createSubscriber({
       variables: {
